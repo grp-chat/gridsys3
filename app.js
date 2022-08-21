@@ -39,23 +39,23 @@ const gridMatrix = [
     [1,0,0,30,0,0,1,0,0,1,0,0,0,0,30,0,0,0,30,0,0,0,1,1,1,1,1,0,1,1,1,1,0,1],
     [1,1,1,1,0,0,1,30,1,1,0,0,0,0,1,1,1,1,1,0,0,0,30,0,0,0,30,0,30,0,0,1,0,1],
     [1,0,0,1,0,0,0,0,0,1,0,0,0,0,30,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,30,0,1],
-    [1,0,0,30,0,0,0,0,0,30,0,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1],
+    [1,0,0,30,0,0,0,0,0,30,0,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1],
     [1,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,30,0,0,0,30,0,0,0,0,0,30,0,0,1,0,1],
     [1,0,0,1,0,0,0,0,0,1,1,1,1,30,1,1,1,1,1,0,0,0,1,0,0,0,0,0,1,0,0,30,0,1],
-    [1,0,0,30,0,0,0,0,0,1,0,30,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1],
+    [1,0,0,30,0,0,0,0,0,1,0,30,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1],
     [1,1,1,1,0,0,0,0,0,30,0,1,0,0,30,0,0,0,30,0,0,0,30,0,0,0,0,0,30,0,0,1,0,1],
     [1,0,0,1,1,1,30,1,1,1,0,1,0,0,1,1,1,1,1,1,30,1,1,0,0,0,0,0,1,0,0,30,0,1],
     [1,0,0,30,0,0,0,0,0,30,0,1,0,0,30,0,0,0,1,0,0,0,30,0,0,0,0,0,1,0,0,1,0,1],
-    [1,1,1,1,0,0,0,0,0,1,0,30,0,0,1,0,0,0,30,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1],
+    [1,1,1,1,0,0,0,0,0,1,0,30,0,0,1,0,0,0,30,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1],
     [1,0,0,1,0,0,0,0,0,1,1,1,1,30,1,1,1,1,1,0,0,0,1,0,0,0,0,0,30,0,0,30,0,1],
     [1,0,0,30,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,30,0,0,0,0,0,1,0,0,1,0,1],
-    [1,1,1,1,0,0,0,0,0,30,0,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1],
+    [1,1,1,1,0,0,0,0,0,30,0,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1],
     [1,0,0,1,0,0,0,0,0,1,0,0,0,0,30,0,0,0,30,0,0,0,30,0,0,0,30,0,30,0,0,30,0,1],
     [1,0,0,30,0,0,1,30,1,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,1],
     [1,1,1,1,0,0,1,0,0,1,0,0,0,0,30,0,0,0,1,0,0,0,1,1,1,1,1,0,1,1,1,1,0,1],
     [1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,30,0,0,0,30,0,0,0,0,0,1,1,1,0,0,1],
     [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-                                
+                                    
 ];
 
 const gridMatrix2 = [
@@ -210,15 +210,15 @@ class GridSystem {
         this.p1 = { x: 1, y: 19, lable: 2, id: this.extraArr[0], steps: 1000, area: "mainArea", wallet: 0, total: 0, storeSteps: 1000 };
 
         this.p2 = { x: 1, y: 1, lable: 3, id: this.extraArr[1], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 2500, storeSteps: 0 };
-        this.p3 = { x: 1, y: 4, lable: 4, id: this.extraArr[2], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 2300, storeSteps: 0 };
+        this.p3 = { x: 1, y: 16, lable: 4, id: this.extraArr[2], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 2300, storeSteps: 0 };
         this.p4 = { x: 1, y: 7, lable: 5, id: this.extraArr[3], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 1400, storeSteps: 0 };
-        this.p5 = { x: 1, y: 10, lable: 6, id: this.extraArr[4], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 3600, storeSteps: 0 };
+        this.p5 = { x: 1, y: 4, lable: 6, id: this.extraArr[4], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 3600, storeSteps: 0 };
 
         this.p6 = { x: 1, y: 13, lable: 7, id: this.extraArr[5], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 2000, storeSteps: 0 };
-        this.p7 = { x: 1, y: 16, lable: 8, id: this.extraArr[6], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 5300, storeSteps: 0 };
-        this.p8 = { x: 7, y: 1, lable: 9, id: this.extraArr[7], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 0, storeSteps: 0 };
+        this.p7 = { x: 1, y: 16, lable: 8, id: this.extraArr[6], steps: this.startingSteps, area: "area2", wallet: 0, total: 5300, storeSteps: 0 };
+        this.p8 = { x: 7, y: 1, lable: 9, id: this.extraArr[7], steps: this.startingSteps, area: "area2", wallet: 0, total: 0, storeSteps: 0 };
         this.p9 = { x: 7, y: 19, lable: 10, id: this.extraArr[8], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 0, storeSteps: 0 };
-        this.p10 = { x: 2, y: 11, lable: 11, id: this.extraArr[9], steps: 300, area: "area2", wallet: 0, total: 0, storeSteps: 0 };
+        this.p10 = { x: 7, y: 1, lable: 11, id: this.extraArr[9], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 0, storeSteps: 0 };
 
         this.playersArr = [this.p1, this.p2, this.p3, this.p4, this.p5, this.p6, this.p7, this.p8, this.p9, this.p10];
 
@@ -228,61 +228,61 @@ class GridSystem {
 
         //PLS COPY PASTE THIS OBJECT TO INDEX.JS "LABLE LOCK FUNCTION AND FLIP ROW WITH COL"
         this.allLocksCoord = {
-            "mainArea,3,2":{head:"Lock ID: 1",body:"Unlock: Cyc 12 or 15 x2 <br>",trigger:"",id:"1"},
-            "mainArea,3,5":{head:"Lock ID: 2",body:"Unlock: Cyc 10 or 13 x2  <br> ",trigger:"",id:"2"},
+            "mainArea,3,2":{head:"Lock ID: 1",body:"Unlock: Cyc 11 x1 or 16 x2 <br>",trigger:"",id:"1"},
+            "mainArea,3,5":{head:"Lock ID: 2",body:"Unlock: Cyc 18 x3  <br> ",trigger:"",id:"2"},
             "mainArea,3,8":{head:"Lock ID: 3",body:"Unlock: Cyc 14 x2 <br> ",trigger:"",id:"3"},
             "mainArea,3,11":{head:"Lock ID: 4",body:"Unlock: Cyc 10 or 14 x3 <br>",trigger:"",id:"4"},
             "mainArea,3,14":{head:"Lock ID: 5",body:"Unlock: Cyc 13 x2 or 15 x3 <br>",trigger:"",id:"5"},
-            "mainArea,3,17":{head:"Lock ID: 6",body:"Unlock: Cyc 15 x2 or 17 x3 <br>",trigger:"",id:"6"},
-            "mainArea,7,3":{head:"Lock ID: 7",body:"Unlock: Cyc 17 x3 <br> ",trigger:"",id:"7"},
-            "mainArea,7,17":{head:"Lock ID: 8",body:"Unlock: Cyc 8 x1 <br>",trigger:"",id:"8"},
+            "mainArea,3,17":{head:"Lock ID: 6",body:"Unlock: Cyc 15 x1 or 18 x3 <br>",trigger:"",id:"6"},
+            "mainArea,7,3":{head:"Lock ID: 7",body:"Unlock: Cyc 15 x1 18 x3 <br> ",trigger:"",id:"7"},
+            "mainArea,7,17":{head:"Lock ID: 8",body:"Unlock: Cyc 9 x1 or 16 x2 <br>",trigger:"",id:"8"},
 
-            "mainArea,6,10":{head:"Lock ID: 9",body:"Unlock: Cyc 10 x1 or 13 x3 <br> ",trigger:"",id:"9"},
-            "mainArea,11,8":{head:"Lock ID: 10",body:"Unlock: Cyc 12 x1 <br> ",trigger:"",id:"10"},
-            "mainArea,11,12":{head:"Lock ID: 11",body:"Unlock: Cyc 12 x1 <br>",trigger:"",id:"11"},
-            "mainArea,9,5":{head:"Lock ID: 12",body:"Unlock: Cyc 16 x3 <br> ",trigger:"",id:"12"},
-            "mainArea,9,9":{head:"Lock ID: 13",body:"Unlock: Cyc 11 x2 <br> ",trigger:"",id:"13"},
-            "mainArea,9,11":{head:"Lock ID: 14",body:"Unlock: Cyc 10 x1 or 14 x2 <br> ",trigger:"",id:"14"},
-            "mainArea,9,15":{head:"Lock ID: 15",body:"Unlock: Cyc 16 x3 <br> ",trigger:"",id:"15"},
+            "mainArea,6,10":{head:"Lock ID: 9",body:"Unlock: Cyc 10 x1 or 16 x2 <br> ",trigger:"",id:"9"},
+            "mainArea,11,8":{head:"Lock ID: 10",body:"Unlock: Cyc 12 x1 or 15 x2 <br> ",trigger:"",id:"10"},
+            "mainArea,11,12":{head:"Lock ID: 11",body:"Unlock: Cyc 12 x1 or 16 x2 <br>",trigger:"",id:"11"},
+            "mainArea,9,5":{head:"Lock ID: 12",body:"Unlock: Cyc 12 x1 or 19 x3 <br> ",trigger:"",id:"12"},
+            "mainArea,9,9":{head:"Lock ID: 13",body:"Unlock: Cyc 11 x1 or 16 x2 <br> ",trigger:"",id:"13"},
+            "mainArea,9,11":{head:"Lock ID: 14",body:"Unlock: Cyc 10 x1 or 16 x2 <br> ",trigger:"",id:"14"},
+            "mainArea,9,15":{head:"Lock ID: 15",body:"Unlock: Cyc 11 x1 or 18 x2 <br> ",trigger:"",id:"15"},
 
-            "mainArea,13,7":{head:"Lock ID: 16",body:"Unlock: Cyc 10 x1 or 12 x2 <br> ",trigger:"",id:"16"},
-            "mainArea,13,13":{head:"Lock ID: 17",body:"Unlock: Cyc 10 x1 or 14 x2 <br> ",trigger:"",id:"17"},
-            "mainArea,14,2":{head:"Lock ID: 18",body:"Unlock: Cyc 11 x1 or 13 x2 <br> ",trigger:"",id:"18"},
-            "mainArea,14,4":{head:"Lock ID: 19",body:"Unlock: Cyc 10 x1 or 14 x2 <br> ",trigger:"",id:"19"},
-            "mainArea,14,9":{head:"Lock ID: 20",body:"Unlock: Cyc 13 x1 <br> ",trigger:"",id:"20"},
-            "mainArea,14,11":{head:"Lock ID: 21",body:"Unlock: Cyc 15 x3 <br> ",trigger:"",id:"21"},
-            "mainArea,14,16":{head:"Lock ID: 22",body:"Unlock: Cyc 11 x1 or 13 x2 <br> ",trigger:"",id:"22"},
-            "mainArea,14,18":{head:"Lock ID: 23",body:"Unlock: Cyc 10 x1 or 14 x2 <br> ",trigger:"",id:"23"},
+            "mainArea,13,7":{head:"Lock ID: 16",body:"Unlock: Cyc 10 x1 or 15 x2 <br> ",trigger:"",id:"16"},
+            "mainArea,13,13":{head:"Lock ID: 17",body:"Unlock: Cyc 9 x1 or 16 x2 <br> ",trigger:"",id:"17"},
+            "mainArea,14,2":{head:"Lock ID: 18",body:"Unlock: Cyc 16 x2 or 17 x3 <br> ",trigger:"",id:"18"},
+            "mainArea,14,4":{head:"Lock ID: 19",body:"Unlock: Cyc 11 x1 or 16 x2 <br> ",trigger:"",id:"19"},
+            "mainArea,14,9":{head:"Lock ID: 20",body:"Unlock: Cyc 13 x1 or 15 x2 <br> ",trigger:"",id:"20"},
+            "mainArea,14,11":{head:"Lock ID: 21",body:"Unlock: Cyc 10 x1 or 15 x2 <br> ",trigger:"",id:"21"},
+            "mainArea,14,16":{head:"Lock ID: 22",body:"Unlock: Cyc 16 x2 <br> ",trigger:"",id:"22"},
+            "mainArea,14,18":{head:"Lock ID: 23",body:"Unlock: Cyc 10 x1 or 17 x2 <br> ",trigger:"",id:"23"},
 
-            "mainArea,18,2":{head:"Lock ID: 24",body:"Unlock: Cyc 12 x1 or 13 x2 <br>",trigger:"",id:"24"},
-            "mainArea,18,6":{head:"Lock ID: 25",body:"Unlock: Cyc 13 x3 <br>",trigger:"",id:"25"},
-            "mainArea,18,9":{head:"Lock ID: 26",body:"Unlock: Cyc 13 x2 <br>",trigger:"",id:"26"},
-            "mainArea,18,12":{head:"Lock ID: 27",body:"Unlock: Cyc 13 x3 <br>",trigger:"",id:"27"},
-            "mainArea,18,16":{head:"Lock ID: 28",body:"Unlock: Cyc 14 x4 <br>",trigger:"",id:"28"},
-            "mainArea,18,19":{head:"Lock ID: 29",body:"Unlock: Cyc 12 x1 or 13 x2 <br>",trigger:"",id:"29"},
-            "mainArea,20,10":{head:"Lock ID: 30",body:"Unlock: Cyc 10 x1 or 12 x2 <br>",trigger:"",id:"30"},
+            "mainArea,18,2":{head:"Lock ID: 24",body:"Unlock: Cyc 11 x1 or 17 x3 <br>",trigger:"",id:"24"},
+            "mainArea,18,6":{head:"Lock ID: 25",body:"Unlock: Cyc 12 x1 or 18 x3 <br>",trigger:"",id:"25"},
+            "mainArea,18,9":{head:"Lock ID: 26",body:"Unlock: Cyc 12 x1 or 16 x2 <br>",trigger:"",id:"26"},
+            "mainArea,18,12":{head:"Lock ID: 27",body:"Unlock: Cyc 11 x1 or 16 x2 <br>",trigger:"",id:"27"},
+            "mainArea,18,16":{head:"Lock ID: 28",body:"Unlock: Cyc 17 x2 <br>",trigger:"",id:"28"},
+            "mainArea,18,19":{head:"Lock ID: 29",body:"Unlock: Cyc 9 x1 or 17 x2 <br>",trigger:"",id:"29"},
+            "mainArea,20,10":{head:"Lock ID: 30",body:"Unlock: Cyc 10 x1 or 15 x2 <br>",trigger:"",id:"30"},
 
-            "mainArea,22,1":{head:"Lock ID: 31",body:"Unlock: Cyc 10 x1 or 11 x2 <br>",trigger:"",id:"31"},
-            "mainArea,22,3":{head:"Lock ID: 32",body:"Unlock: Cyc 15 x3 <br>",trigger:"",id:"32"},
-            "mainArea,22,6":{head:"Lock ID: 33",body:"Unlock: Cyc 11 x2 <br>",trigger:"",id:"33"},
-            "mainArea,22,9":{head:"Lock ID: 34",body:"Unlock: Cyc 10 x1 or 11 x2 <br>",trigger:"",id:"34"},
-            "mainArea,22,11":{head:"Lock ID: 35",body:"Unlock: Cyc 10 x1 or 11 x2 <br>",trigger:"",id:"35"},
-            "mainArea,22,14":{head:"Lock ID: 36",body:"Unlock: Cyc 12 x3 <br>",trigger:"",id:"36"},
-            "mainArea,22,16":{head:"Lock ID: 37",body:"Unlock: Cyc 14 x3 <br>",trigger:"",id:"37"},
-            "mainArea,22,19":{head:"Lock ID: 38",body:"Unlock: Cyc 9 x1 or 13 x3 <br>",trigger:"",id:"38"},
+            "mainArea,22,1":{head:"Lock ID: 31",body:"Unlock: Cyc 10 x1 <br>",trigger:"",id:"31"},
+            "mainArea,22,3":{head:"Lock ID: 32",body:"Unlock: Cyc 13 x1 or 17 x2 <br>",trigger:"",id:"32"},
+            "mainArea,22,6":{head:"Lock ID: 33",body:"Unlock: Cyc 12 x1 or 16 x2 <br>",trigger:"",id:"33"},
+            "mainArea,22,9":{head:"Lock ID: 34",body:"Unlock: Cyc 11 x1 or 16 x2 <br>",trigger:"",id:"34"},
+            "mainArea,22,11":{head:"Lock ID: 35",body:"Unlock: Cyc 10 x1 or 16 x2 <br>",trigger:"",id:"35"},
+            "mainArea,22,14":{head:"Lock ID: 36",body:"Unlock: Cyc 11 x1 or 17 x2 <br>",trigger:"",id:"36"},
+            "mainArea,22,16":{head:"Lock ID: 37",body:"Unlock: Cyc 12 x1 or 18 x2 <br>",trigger:"",id:"37"},
+            "mainArea,22,19":{head:"Lock ID: 38",body:"Unlock: Cyc 9 x1 <br>",trigger:"",id:"38"},
 
-            "mainArea,26,3":{head:"Lock ID: 39",body:"Unlock: Cyc 13 x3 <br>",trigger:"",id:"39"},
-            "mainArea,26,16":{head:"Lock ID: 40",body:"Unlock: Cyc 13 x3 <br>",trigger:"",id:"40"},
-            "mainArea,28,3":{head:"Lock ID: 41",body:"Unlock: Cyc 9 x1 or 14 x3 <br>",trigger:"",id:"41"},
-            "mainArea,28,6":{head:"Lock ID: 42",body:"Unlock: Cyc 11 x2 <br>",trigger:"",id:"42"},
-            "mainArea,28,9":{head:"Lock ID: 43",body:"Unlock: Cyc 9 x1 or 13 x3 <br>",trigger:"",id:"43"},
-            "mainArea,28,13":{head:"Lock ID: 44",body:"Unlock: Cyc 11 x2 <br>",trigger:"",id:"44"},
-            "mainArea,28,16":{head:"Lock ID: 45",body:"Unlock: Cyc 9 x1 or 14 x3 <br>",trigger:"",id:"45"},
-            "mainArea,31,4":{head:"Lock ID: 46",body:"Unlock: Cyc 9 x1 <br>",trigger:"",id:"46"},
-            "mainArea,31,7":{head:"Lock ID: 47",body:"Unlock: Cyc 10 x2 <br>",trigger:"",id:"47"},
-            "mainArea,31,10":{head:"Lock ID: 48",body:"Unlock: Cyc 11 x3 <br>",trigger:"",id:"48"},
-            "mainArea,31,13":{head:"Lock ID: 49",body:"Unlock: Cyc 9 x1 <br>",trigger:"",id:"49"},
-            "mainArea,31,16":{head:"Lock ID: 50",body:"Unlock: Cyc 10 x2 <br>",trigger:"",id:"50"}
+            "mainArea,26,3":{head:"Lock ID: 39",body:"Unlock: Cyc 11 x1 or 17 x2 <br>",trigger:"",id:"39"},
+            "mainArea,26,16":{head:"Lock ID: 40",body:"Unlock: Cyc 10 x2 or 18 x2 <br>",trigger:"",id:"40"},
+            "mainArea,28,3":{head:"Lock ID: 41",body:"Unlock: Cyc 11 x1 <br>",trigger:"",id:"41"},
+            "mainArea,28,6":{head:"Lock ID: 42",body:"Unlock: Cyc 16 x2 or 17 x3 <br>",trigger:"",id:"42"},
+            "mainArea,28,9":{head:"Lock ID: 43",body:"Unlock: Cyc 16 x2 <br>",trigger:"",id:"43"},
+            "mainArea,28,13":{head:"Lock ID: 44",body:"Unlock: Cyc 10 x1 or 16 x2 <br>",trigger:"",id:"44"},
+            "mainArea,28,16":{head:"Lock ID: 45",body:"Unlock: Cyc 11 x1 <br>",trigger:"",id:"45"},
+            "mainArea,31,4":{head:"Lock ID: 46",body:"Unlock: Cyc 10 x1 or 15 x2 <br>",trigger:"",id:"46"},
+            "mainArea,31,7":{head:"Lock ID: 47",body:"Unlock: Cyc 16 x2 <br>",trigger:"",id:"47"},
+            "mainArea,31,10":{head:"Lock ID: 48",body:"Unlock: Cyc 9 x1 or 14 x2 <br>",trigger:"",id:"48"},
+            "mainArea,31,13":{head:"Lock ID: 49",body:"Unlock: Cyc 16 x2 <br>",trigger:"",id:"49"},
+            "mainArea,31,16":{head:"Lock ID: 50",body:"Unlock: Cyc 10 x1 or 15 x2 <br>",trigger:"",id:"50"}
 
 
         }
