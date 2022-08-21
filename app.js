@@ -207,7 +207,7 @@ class GridSystem {
         //this.extraArr = ["TCR", "LXR", "LK", "JHA", "JV", "JL", "SZF", "H", "CJH", "KX"];
         this.extraArr = ["TCR", "LOK", "KSY", "KN", "JT", "CJH", "LSH", "KX", "TJY", "CED"];
 
-        this.p1 = { x: 1, y: 19, lable: 2, id: this.extraArr[0], steps: 1000, area: "mainArea", wallet: 0, total: 0, storeSteps: 1000 };
+        this.p1 = { x: 32, y: 1, lable: 2, id: this.extraArr[0], steps: 1000, area: "mainArea", wallet: 0, total: 0, storeSteps: 1000 };
 
         this.p2 = { x: 1, y: 1, lable: 3, id: this.extraArr[1], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 2500, storeSteps: 0 };
         this.p3 = { x: 1, y: 16, lable: 4, id: this.extraArr[2], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 2300, storeSteps: 0 };
